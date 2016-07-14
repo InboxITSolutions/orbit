@@ -1,0 +1,37 @@
+.bold{
+	font-weight: bold;
+}
+.left{
+	float:left;
+}
+
+.capkon-p-mini{
+	font-size: 13px;
+	font-family: 'Droid Sans', sans-serif;
+	margin: 0px;
+	color: #fff;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+.title-bar{
+	text-align: center;
+    margin: 60px auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.title-bar:after{
+	content: '';
+    position: absolute;
+    width: 31px;
+    height: 3px;
+    background: #ccc;
+    top: 72%;
+    left: calc(51% - 31px);
+    
+}
